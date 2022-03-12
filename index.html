@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>&lt; Pokedex &gt;</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cartao.css">
+    <link rel="stylesheet" href="listagem.css">
+    <link rel="stylesheet" href="responsivo.css">
 </head>
 <body>
     <main>
         <div class="pokedex">
-            <div class="cartoes-pokemons">
-                <div class="cartao-pokemon">
+            <div class="cartoes-pokemons">  <!--  HÁ UM ERRO. "pokemon'S'. No código dos gêmeos não tem plural"-->
+                <div class="cartao-pokemon aberto tipo-eletrico">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Pikachu</h2>
@@ -205,7 +210,7 @@
 
             <nav class="listagem">
                 <ul>
-                    <li class="pokemon">
+                    <li class="pokemon ativo">
                         <img src="imagens-pokedex/imagens/cabeca-pikachu.png" alt="Pikachu">
                         <span>Pikachu</span>
                     </li>
@@ -233,6 +238,5 @@
             </nav>
         </div>
     </main>
-    
 </body>
 </html>
